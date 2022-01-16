@@ -49,6 +49,12 @@ This model was the most accurate at predicting good loans and risky loans at 92.
 
 ### *Precision and Recall Scores*
 
+Precision is used to measure how reliable a positive classification can be.  Recall is used to measure test sensitivity. The fundamental difference between precision and recall is that high recall tests are aggressive and are great at detecting the intended targets.  Where as, high precision tests are more conservative, where the predicted positives are true posititives but there is a high liklihood that other true postivies are not predicited.  
+
+#### *Naive Random Oversampling*
+
+With this model the precision for detecting low risk loans is pretty accurate at 99%, while not even predicting the high
+
 
 
 
